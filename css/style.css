@@ -10,13 +10,13 @@
 .debugg{
     background-color: orange;
 }
-
+.debugg-2{
+    background-color: brown;
+}
 /* DE-BUGG */
 
 /* HEADER */
-header{
-    width:1560px;
-}
+
 .header-top{
     background-color: aqua;
     height: 60px;
@@ -43,6 +43,41 @@ header{
     width: 50%;  
     height: 70%;
 }
-
-
 /* HEADER */
+
+/* MAIN */
+.section-1{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{   
+    display: flex;
+    width: 70%;
+    height: 80%;
+}
+.item-1{
+flex-grow: 2;
+}
+.item-2{
+flex-grow: 1;
+}
+
+.section-2{
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item-1-section2{
+    flex-grow: 1;
+}
+.item-2-section2{
+    flex-grow: 2;
+}
+/* MAIN */
