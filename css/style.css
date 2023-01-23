@@ -1,0 +1,36 @@
+/* REGOLE DI BASE */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* REGOLE DI BASE */
+
+/* DE-BUGG */
+.debugg{
+    background-color: orange;
+}
+
+/* DE-BUGG */
+
+/* HEADER */
+header{
+    width:1560px;
+}
+.header-top{
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.container-header-top{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* HEADER */
