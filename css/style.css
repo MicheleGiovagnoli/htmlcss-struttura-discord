@@ -13,6 +13,9 @@
 .debugg-2{
     background-color: brown;
 }
+debugg-3{
+    background-color: aqua;
+}
 /* DE-BUGG */
 
 /* HEADER */
@@ -46,12 +49,22 @@
 /* HEADER */
 
 /* MAIN */
-.section-1{
+
+
+.section{
     background-color: white;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container{   
+    display: flex;
+    width: 70%;
+    height: 80%;
+}
+.section .bg-grey{
+    background-color: rgb(144, 143, 143);
 }
 .item-1{
 flex-grow: 2;
@@ -59,25 +72,14 @@ flex-grow: 2;
 .item-2{
 flex-grow: 1;
 }
-
-.container{   
-    display: flex;
-    width: 70%;
-    height: 80%;
-}
-
-.section-2{
-    background-color: rgb(144, 143, 143);
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-.section-2 .item1{
+.section .item-reverse-1{
     flex-grow: 1;
 }
-.section2 .item-2{
+.section .item-reverse-2{
     flex-grow: 2;
 }
 
+.section .big{
+    background-color: rgb(144, 143, 143);
+}
 /* MAIN */
