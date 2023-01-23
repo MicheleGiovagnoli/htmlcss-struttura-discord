@@ -52,12 +52,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.container{   
-    display: flex;
-    width: 70%;
-    height: 80%;
 }
 .item-1{
 flex-grow: 2;
@@ -66,18 +60,24 @@ flex-grow: 2;
 flex-grow: 1;
 }
 
+.container{   
+    display: flex;
+    width: 70%;
+    height: 80%;
+}
+
 .section-2{
-    background-color: whitesmoke;
+    background-color: rgb(144, 143, 143);
     height: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
-.item-1-section2{
+.section-2 .item1{
     flex-grow: 1;
 }
-.item-2-section2{
+.section2 .item-2{
     flex-grow: 2;
 }
+
 /* MAIN */
