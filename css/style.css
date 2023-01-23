@@ -13,7 +13,7 @@
 .debugg-2{
     background-color: brown;
 }
-debugg-3{
+.debugg-3{
     background-color: aqua;
 }
 /* DE-BUGG */
@@ -63,7 +63,7 @@ debugg-3{
     width: 70%;
     height: 80%;
 }
-.section .bg-grey{
+.bg-grey{
     background-color: rgb(144, 143, 143);
 }
 .item-1{
@@ -77,9 +77,14 @@ flex-grow: 1;
 }
 .section .item-reverse-2{
     flex-grow: 2;
+} 
+
+.section-big{
+    background-color: rgb(144, 143, 143);
+    height: 800px;
+}
+.container-big{
+    height: 700px;
 }
 
-.section .big{
-    background-color: rgb(144, 143, 143);
-}
 /* MAIN */
