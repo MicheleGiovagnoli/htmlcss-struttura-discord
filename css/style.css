@@ -9,12 +9,15 @@
 /* DE-BUGG */
 .debugg{
     background-color: orange;
+    border: 3px dotted black;
 }
 .debugg-2{
     background-color: brown;
+    border: 3px dotted black;
 }
 .debugg-3{
     background-color: aqua;
+    border: 3px dotted black;
 }
 /* DE-BUGG */
 
@@ -48,9 +51,7 @@
 }
 /* HEADER */
 
-/* MAIN */
-
-
+/*---- MAIN---- */
 .section{
     background-color: white;
     height: 400px;
@@ -86,5 +87,34 @@ flex-grow: 1;
 .container-big{
     height: 700px;
 }
+/* ----MAIN---- */
 
-/* MAIN */
+
+/* FOOTER */
+.footer-top{
+    background-color: rgb(0, 0, 0);
+}
+.container-footer-top{
+    display: flex;
+    align-items: stretch;
+}
+.item-footer{
+
+}
+.column1{
+    flex-grow: 2;
+}
+.column2{
+    flex-grow: 1;
+}
+.column3{
+    flex-grow: 1;
+}
+.column4{
+    flex-grow: 1;
+}
+.column5{
+    flex-grow: 1;
+}
+
+/* FOOTER */
